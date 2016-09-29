@@ -31,8 +31,8 @@ public class Contact extends BaseEntity {
 
         public static final String [] ColumnNames = {
                 _ID,
-                PHONE_NUM,
                 NAME,
+                PHONE_NUM,
                 RANK
         };
 
@@ -44,7 +44,7 @@ public class Contact extends BaseEntity {
         ColumnsMap.append(0, ContactColumns._ID);
         ColumnsMap.append(1, ContactColumns.PHONE_NUM);
         ColumnsMap.append(2, ContactColumns.NAME);
-        ColumnsMap.append(2, ContactColumns.RANK);
+        ColumnsMap.append(3, ContactColumns.RANK);
     }
 
     public static final String SQL_CREATE =
